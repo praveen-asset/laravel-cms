@@ -1,0 +1,1 @@
+<a href="javascript:void(0)" id='{{"inquiry_".encrypt($id) }}' class='btn btn-xs btn-danger del' data-msg="Are you sure you want to delete this inquiry {{ ucwords($name) }}?"><i class="fa fa-trash"></i></a>

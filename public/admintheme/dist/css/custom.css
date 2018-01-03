@@ -1,0 +1,193 @@
+.form-group .required:after {
+    content: " *";
+    color: red;
+}
+
+.without-border{
+	border: none;
+}
+
+/*----- Status icons -----*/
+.fa-thumbs-up {
+    color: green;
+    cursor: pointer;
+}
+.fa-thumbs-up:hover {
+    color: red;
+}
+
+.fa-thumbs-down:hover {
+    color: green;
+}
+.fa-thumbs-down {
+    color: red;
+    cursor: pointer;
+}
+
+/*inline spinner */
+.spinner{
+	display: none;
+}
+.spinner .overlay>.fa{
+	margin-top: 0px;
+}
+
+.modal-content {
+    border-radius: 6px !important;
+}
+
+input[type="file"] {
+    display: inline-block;
+}
+
+.form-group.property_image .btn {
+    margin: 2px;
+}
+
+.propertyform .select2-container .select2-selection--single{
+    height: 30px;
+    border-radius: 0px;
+    border: 1px solid #d2d6de;
+}
+div.classified_image{
+    height: 200px !important;
+}
+
+label.form-control{
+    height: auto !important;
+    min-height: 34px;
+}
+
+.adsform .select2-container .select2-selection--single{
+    height: 30px;
+    border-radius: 0px;
+    border: 1px solid #d2d6de;
+}
+
+.form-group textarea{
+    max-width: 100% !important;
+}
+
+i.updateStatus.flag{
+    vertical-align: middle;
+}
+
+
+/*Google Address picker */
+#locationField, #controls {
+    position: relative;
+}
+#autocomplete {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 99%;
+}
+.label {
+    text-align: right;
+    font-weight: bold;
+    width: 100px;
+    color: #303030;
+}
+#address {
+    max-width: 100% !important;
+}
+#address td {
+    font-size: 10pt;
+}
+.field {
+    width: 99%;
+}
+.slimField {
+    width: 80px;
+}
+.wideField {
+    width: 200px;
+}
+#locationField {
+    height: 30px;
+    margin-bottom: 2px;
+}
+/*Google address picker ends here*/
+
+/*modal popup cancel button hide*/
+#addNewModel .box-footer a.btn-default{
+    display: none !important;
+}
+#addNewModelAds .box-footer a.btn-default{
+    display: none !important;
+}
+.checkbox label{
+    word-break: break-all;
+}
+div.classified_image {
+    height: 200px !important;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    line-height: 200px;
+    text-align: center;
+}
+
+.adsform input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+    float: left;
+    margin: 4px 10px;
+}
+
+.select2-container .select2-selection--single{
+    border-radius: 0px; 
+    border-radius: 0px; 
+    height: 30px;
+}
+
+.user-header{
+    height: auto !important;
+}
+
+.separate-dial-code{
+    display: block!important;
+}
+
+.textRead
+{
+    background-color: white !important;
+    cursor: auto !important;
+}
+
+.btn-space{
+    margin-right: 5px;
+}
+
+.line-height-28{
+    line-height: 28px;
+}
+
+fieldset 
+{
+    border: 1px solid #ddd !important;
+    margin-bottom: 20px;
+    padding: 10px;       
+    position: relative;
+    border-radius:4px;
+    background-color:#f5f5f5;
+    padding-left:10px!important;
+}   
+
+legend
+{
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom: 0px; 
+    width: 35%; 
+    border: 1px solid #ddd;
+    border-radius: 4px; 
+    padding: 5px 5px 5px 10px; 
+    background-color: #ffffff;
+}
+
+.popup-model .row{
+    margin: 10px 0;
+}
